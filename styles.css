@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: #ccc;
+    border-color: #aaa;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+main {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.posts {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20%; 
+}
+
+.post {
+    background-color: #dcd7d7;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.post-date {
+    font-size: 14px;
+    color: #888;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.like-section img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #ddd;
+    border-top: 1px solid #bbb;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .posts {
+        width: 100%;
+        padding: 0;
+    }
+
+    .post {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .user-profile img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .post-header img {
+        width: 30px;
+        height: 30px;
+    }
+}
