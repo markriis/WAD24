@@ -122,6 +122,12 @@ footer {
     border-top: 1px solid #bbb;
     margin-top: 20px;
 }
+/* General Sibling Selector */
+/* Stiil kõigile lõikudele (p), mis järgivad .post-image elemendi sees sama .post konteineris */
+.post-image ~ p {
+    font-style: italic;
+    color: #555;
+}
 
 
 
