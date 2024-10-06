@@ -67,6 +67,24 @@ ID selector
     color: rgb(73, 72, 72);
 }
 
+.input-container:has( input:placeholder-shown )::after {
+    content: attr( name ) ' is required';
+    display: flex;
+    justify-content: center;
+
+    background: rgb(196, 192, 192);
+    padding: inherit;
+    margin: 0 5px;
+    width: 100%;
+
+    padding: 5px;
+
+    /* use padding in width calc */
+    box-sizing: border-box;
+
+    border-radius: 5px;
+
+}
 
 @media (max-width: 1024px) {
     .form {

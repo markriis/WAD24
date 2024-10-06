@@ -25,8 +25,12 @@
             <h3>Welcome to PostIt</h1>
             <p class = "createAccount">Create an account</p>
             <p> or <br> Please log in</p><br>
-            <input type="text" id="email" name="email" placeholder="Email" required><br>
-            <input type="text" id="password" name="password" placeholder="Password" required><br>
+            <div class="input-container" name="email">
+              <input type="text" id="email" name="email" placeholder="Email" required><br>
+            </div>
+            <div class="input-container" name="password">
+              <input type="text" id="password" name="password" placeholder="Password" required><br>
+            </div>
             <input type="submit" class="login-button" value="Log in">
             <p class="forget">Forget password?</p>
         </form>
