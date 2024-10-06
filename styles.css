@@ -133,12 +133,12 @@ footer {
     }
 
     header {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
     }
 
     .menu {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
     }
 
@@ -170,5 +170,20 @@ footer {
     .post-header img {
         width: 30px;
         height: 30px;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    .post {
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+    }
+
+    main {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
