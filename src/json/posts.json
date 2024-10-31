@@ -38,7 +38,7 @@
         "author": "User5",
         "createTime": "2022-09-23",
         "content": "sügis algas :(",
-        "imageURL": "https://wxcoy.cc/fail/997fdb2d-c3fd-4754-b1c3-4a787bf1c4c5",
+        "imageURL": "assets/no-no-no-no-cat.gif",
         "profileIcon": "assets/profile-icon.png",
         "likeIcon": "assets/Icon-like-button-transparent-PNG.png"
     }, 
@@ -60,8 +60,7 @@
     {
         "author": "User8",
         "createTime": "2022-10-1",
-        "content": "NO",
-        "imageURL": "https://tenor.com/en-GB/view/no-no-no-no-cat-no-cat-gif-5098083",
+        "content": "cool",
         "profileIcon": "assets/profile-icon.png",
         "likeIcon": "assets/Icon-like-button-transparent-PNG.png"
     },
@@ -69,7 +68,6 @@
         "author": "User9",
         "createTime": "2022-10-1",
         "content": "working late...",
-        "imageURL": "https://giphy.com/gifs/reddit-doing-lJNoBCvQYp7nq",
         "profileIcon": "assets/profile-icon.png",
         "likeIcon": "assets/Icon-like-button-transparent-PNG.png"
     },
