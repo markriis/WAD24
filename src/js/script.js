@@ -107,6 +107,17 @@ fetch('json/posts.json')
         postContent.innerText = post.content;
         div.appendChild(postContent);
 
+        let likeSection = document.createElement( 'like-section' );
+        likeSection.classList.add( 'like-section' );
+
+        let likeImg = document.createElement( 'img' );
+        likeImg.src = "assets/Icon-like-button-transparent-PNG.png";
+        likeImg.alt = "Like icon";
+
+        likeSection.appendChild( likeImg );
+
+        div.appendChild( likeSection );
+
         postsContainer.appendChild(div);
     }
 })
