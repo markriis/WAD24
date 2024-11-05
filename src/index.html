@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posts Page</title>
     <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- defer -> run on page load (should be on DOMContentLoaded) -->
+    <script src="js/native-dropdown.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -15,10 +18,16 @@
 
             </div>
             <div class="user-profile">
-                <a href="login.html">
+                <div id="dropdown-toggle">
                     <img src="assets/profile-icon.png" alt="Profile Icon">
-                </a>
+                </div>
             </div>
+
+            <div id="dropdown-native">
+                <p>John Doe</p>
+                <p>john.doe@ut.ee</p>
+                <a href="login.html">logout</a>
+            </div> 
         </header>
         <main>
             <div class="posts">

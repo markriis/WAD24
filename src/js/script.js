@@ -64,6 +64,7 @@ fetch('https://api.jsonbin.io/v3/b/6723c8dbad19ca34f8c1c0cf', {
  */
 
 
+// JSON Validator: https://jsonlint.com/
 fetch('json/posts.json')
 .then(response => response.json())
 .then(data => {
